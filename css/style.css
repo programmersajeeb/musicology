@@ -1,0 +1,252 @@
+/* Oswald Font */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+/* Utilities Or Common Style */
+body {
+  font-family: "Oswald", sans-serif;
+}
+.btn-cust {
+  padding: 8px 50px;
+  font-size: 18px;
+}
+.a-b-button{
+  background-color: #303030;
+  border: 1px solid #303030;
+  transition: .3s;
+}
+.a-b-button:hover{
+  background-color: transparent;
+}
+.section-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+/* Header Area Start */
+.header-area {
+  background-image: url(../images/background/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+}
+/* Menu Area */
+.menu-area,
+.n-color {
+  background-color: #303030 !important;
+}
+.nav-m-i{
+  transition: .3s;
+}
+.nav-m-i:hover{
+  color: #e8631c !important;
+}
+/* Banner Area */
+.banner-content {
+  height: 100vh;
+}
+.banner-content .content-align h1 {
+  font-size: 80px;
+}
+.banner-content .content-align p {
+  font-size: 16px;
+}
+.banner-content .content-align a {
+  background-color: #e8631c;
+  border: 1px solid #e8631c;
+  transition: .3s;
+}
+.banner-content .content-align a:hover{
+  background-color: transparent;
+}
+/* Header Area End */
+/* Dance Tour Area Start */
+#dance-tour {
+  background-image: url(../images/background/dance-tour-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  overflow: hidden;
+}
+.dance-tour-content p {
+  width: 85%;
+}
+.card-bg {
+  background-color: #303030;
+}
+.d-card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+/* Dance Tour Area End */
+/* Pricing Area Start */
+#pricing {
+  background-image: url(../images/background/pricing-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  overflow: hidden;
+}
+.pricing-content p {
+  width: 80%;
+}
+.p-c-area {
+  background-color: #e8631c;
+}
+.p-card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.price {
+  font-size: 16px;
+  background-color: #303030;
+}
+/* Pricing Area End */
+/* Amazing Dance Area Start */
+#amazin-dance {
+  background-color: #e8631c;
+  overflow: hidden;
+}
+#amazin-dance .container-fulid .row .col-6 img {
+  object-fit: contain;
+}
+.a-content {
+  background-image: url(../images/amazing-bg/amazing-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  overflow: hidden;
+}
+.amazing-content p {
+  font-size: 16px;
+}
+/* Amazing Dance Area End */
+/* Best Dance Area Start */
+#best-dance {
+  background-color: #e8631c;
+  overflow: hidden;
+}
+.b-content {
+  background-image: url(../images/amazing-bg/best-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  overflow: hidden;
+}
+.best-content p {
+  font-size: 16px;
+}
+/* Best Dance Area End */
+/* Statistics Area Start */
+#statistics {
+  background-color: #303030;
+}
+.count-point {
+  font-size: 35px;
+  font-weight: 700;
+}
+.count-title {
+  font-size: 18px;
+}
+/* Statistics Area End */
+/* Herbert Area Start */
+#herbert {
+  background-image: url(../images/background/hs-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
+.herbert-content {
+  height: 70vh;
+}
+.herbert-content .content-align p {
+  font-size: 16px;
+}
+.herbert-content .content-align h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+/* Herbert Area Start */
+/* Subscribe Area Start */
+#subscribe {
+  background-image: url(../images/background/subscribe.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
+.subscribe-form-area {
+  width: 70%;
+  height: 45px;
+}
+input,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+input[type="email"]:focus {
+  border-color: #303030;
+}
+.sub-button{
+  background-color: #303030;
+  font-weight: 500;
+  transition: .3s;
+}
+.sub-button:hover{
+  background-color: transparent;
+}
+/* Subscribe Area Start */
+/* Footer Area Start */
+#footer-area {
+  background-color: #303030;
+}
+.footer-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer-link{
+  color: #fff;
+  text-decoration: none;
+}
+.footer-font, .footer-link{
+  font-size: 14px;
+}
+.footer-social-icon a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #303030;
+  background: #fff;
+  line-height: 32px;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 7px;
+  transition: .3s;
+}
+.footer-social-icon a:hover{
+  background-color: #e8631c;
+  color: #fff;
+}
+.social-area a span i {
+  font-size: 18px;
+}
+/* Footer Area End */
+/* Media Queary Start */
+@media only screen and (max-width: 576px) {
+  .dance-tour-content p,
+  .pricing-content p,
+  .statistics-content-pra,
+  .herbert-conten-pra,
+  .subscribe-content-pra,
+  .subscribe-form-area,
+  .footer-musicology-content-pra {
+    width: 95% !important;
+  }
+}
+/* Media Queary End */
